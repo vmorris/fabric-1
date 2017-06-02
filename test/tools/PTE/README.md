@@ -18,6 +18,8 @@ The Performance Traffic Engine (PTE) uses [Hyperledger Fabric Client (HFC) SDK](
     - [Service Credentials File](#service-credentials)
     - [Creating a Local Fabric Network](#creating-a-local-fabric-network)
 
+---
+
 ### Code Base for v1.0.0-alpha2
 
 - Fabric commit level: `6b6bfcfbd1e798a8a08fa9c3bf4dc0ff766a6b87`
