@@ -1,6 +1,5 @@
 
 # Performance Traffic Engine - PTE
-----------
 
 The Performance Traffic Engine (PTE) uses [Hyperledger Fabric Client (HFC) SDK](http://hyperledger-fabric.readthedocs.io/en/latest/Setup/NodeSDK-setup/) to interact with a [Hyperledger Fabric](https://github.com/hyperledger/fabric) network.
 
@@ -43,7 +42,6 @@ Below is the v1.0.0-alpha commit levels.
 - Replace `git clone https://github.com/hyperledger/fabric-sdk-node.git` with fabric-client and fabric-ca-client.
 
 ## Prerequisites
----
 To build and test the following prerequisites must be installed first:
 
 - node and npm lts/boron release (v6.10.x and v3.10.x)
@@ -59,7 +57,6 @@ To build and test the following prerequisites must be installed first:
 If planning to run your Fabric network locally, you'll need docker and a bit more. See [Hyperledger Fabric - Getting Started](http://hyperledger-fabric.readthedocs.io/en/latest/getting_started.html) for details.
 
 ## Setup
----
 1. Download fabric sources and checkout appropriate commit levels (v1.0.0-alpha2 shown here):
     - `go get -d github.com/hyperledger/fabric`
     - `cd $GOPATH/src/github.com/hyperledger/fabric/`
@@ -294,7 +291,7 @@ The output includes network id, thread id, transaction type, total transactions,
     ```
 
 ## Reference
----
+
 ### User Input file
 ```
 {
