@@ -15,7 +15,7 @@ The Performance Traffic Engine (PTE) uses [Hyperledger Fabric Client (HFC) Node 
      - [Output](#output)
  - [Reference](#reference)
     - [User Input File](#user-input-file)
-    - [Service Credentials File](#service-credentials)
+    - [Service Credentials File](#service-credentials-file)
     - [Creating a Local Fabric Network](#creating-a-local-fabric-network)
 
 ---
