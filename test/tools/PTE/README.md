@@ -1,7 +1,7 @@
 
 # Performance Traffic Engine - PTE
 
-The Performance Traffic Engine (PTE) uses [Hyperledger Fabric Client (HFC) SDK](http://hyperledger-fabric.readthedocs.io/en/latest/Setup/NodeSDK-setup/) to interact with a [Hyperledger Fabric](https://github.com/hyperledger/fabric) network.
+The Performance Traffic Engine (PTE) uses [Hyperledger Fabric Client (HFC) Node SDK](http://hyperledger-fabric.readthedocs.io/en/latest/nodesdk.html) to interact with a [Hyperledger Fabric](http://hyperledger-fabric.readthedocs.io/en/latest/) network.
 
 ## Table Of Contents:
 - [Prerequisites](#prerequisites)
@@ -93,7 +93,6 @@ If planning to run your Fabric network locally, you'll need docker and a bit mor
     - Create your own version of runCases.txt and User Input json files, according to the test requirements. Use the desired chaincode name, channel name, organizations, etc. Using the information in your own network profiles, remember to "create" all channels, and "join" and "install" for each org, to ensure all peers are set up correctly. Additional information can be found below.
 
 ## Running PTE
----
 Before attempting to run PTE ensure your network is running!
 If you do not have access to a Fabric network, please see the section on [Creating a local Fabric network](#creating-a-local-fabric-network).
 
